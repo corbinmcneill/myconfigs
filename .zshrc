@@ -87,7 +87,7 @@ export EDITOR='vim'
 alias sound="pavucontrol"
 alias R="R --quiet"
 alias rstudio="rstudio-bin"
-alias mplayer="mplayer -vfm ffmpeg -lavdopts lowres=1:fast:skiploopfilter=all"
+alias mplayer="mplayer -lavdopts threads=4"
 
 export DEFAULT_USER='mcneill'
 prompt_context(){}
