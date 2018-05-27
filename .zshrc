@@ -99,3 +99,5 @@ fi
 
 # eval "$(dircolors ~/.dir_colors/dircolors)"
 source $ZSH/oh-my-zsh.sh
+
+export GPG_TTY=$(tty)
