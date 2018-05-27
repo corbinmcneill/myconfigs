@@ -1,0 +1,15 @@
+#include ".Xresources.d/solarized.dark"
+
+xterm*renderFont: true
+xterm*faceName:	DejaVu Sans Mono for Powerline
+xterm*faceSize: 12
+XTerm*termName: xterm-256color
+xterm*eightBitInput: false
+xterm*metaSendsEscape: true
+
+Xft.autohint: 0
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintslight
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
