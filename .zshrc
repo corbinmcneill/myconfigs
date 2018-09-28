@@ -1,5 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$PATH:$HOME/.local/bin:/usr/local/bin
+export PATH=$PATH:/opt/cuda/bin
 export ANDROID_HOME=/opt/android-sdk
 
 # Path to your oh-my-zsh installation.
@@ -87,7 +88,8 @@ export EDITOR='vim'
 alias sound="pavucontrol"
 alias R="R --quiet"
 alias rstudio="rstudio-bin"
-alias mplayer="mplayer -lavdopts threads=4"
+alias mplayer="mplayer -lavdopts threads=4 -cache 10000"
+alias mc2print="lpr -H 127.0.0.1:3631 -P cps3400"
 
 export DEFAULT_USER='mcneill'
 prompt_context(){}

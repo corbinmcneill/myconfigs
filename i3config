@@ -155,15 +155,21 @@ bar {
         status_command i3status
 }
 
+# locking
 bindsym Control+Mod1+l exec "xscreensaver-command --lock"
 
+# audio
 bindsym XF86AudioRaiseVolume exec amixer -q -D pulse set Master 5%+
 bindsym XF86AudioLowerVolume exec amixer -q -D pulse set Master 5%-
 bindsym XF86AudioMute exec amixer -q -D pulse set Master toggle
-
 bindsym XF86AudioPause exec playerctl play-pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
+# backlight
 bindsym XF86MonBrightnessDown exec xbacklight -dec 10
 bindsym XF86MonBrightnessUp exec xbacklight -inc 10
+
+# moving workspaces
+bindsym $mod+u move workspace to output left
+bindsym $mod+i move workspace to output left

@@ -137,3 +137,7 @@ set secure
 
 "temporary
 imap jk <ESC>
+
+
+"highlight lines longer than 80 chars
+"autocmd BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
