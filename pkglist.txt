@@ -20,6 +20,7 @@ coreutils
 cronie
 cryptsetup
 ctags
+cuda
 cups
 d-feet
 deepin-screenshot
@@ -28,11 +29,9 @@ dex
 dhcpcd
 dialog
 diffutils
-discord
 discount
 dmenu
 doxygen
-dropbox
 dunst
 e2fsprogs
 easy-rsa
@@ -62,7 +61,6 @@ gparted
 gradle
 grep
 gst-libav
-gstreamer0.10-base-plugins
 gvfs
 gvim
 gzip
@@ -80,7 +78,6 @@ iw
 jdk7-openjdk
 jfsutils
 jupyter-notebook
-jupyterthemes
 less
 lib32-gnutls
 lib32-libldap
@@ -103,7 +100,6 @@ mdadm
 meld
 mesa-demos
 mgba-qt
-minecraft
 mplayer
 mutt
 nano
@@ -115,8 +111,6 @@ nmap
 nss-mdns
 ntfs-3g
 ntp
-oh-my-zsh-git
-oh-my-zsh-powerline-theme-git
 okular
 opencv
 openjdk7-doc
@@ -124,16 +118,13 @@ openjdk7-src
 openjdk8-doc
 openssh
 openvpn
-package-query
 pacman
-pam_usb
 pamixer
 pandoc
 paprefs
 patch
 pavucontrol
 pciutils
-pcmciautils
 pdfmod
 pdfsam
 perl
@@ -158,7 +149,6 @@ ranger
 redshift
 reiserfsprogs
 rpmextract
-rstudio-desktop-bin
 rsync
 rxvt-unicode
 s-nail
@@ -166,7 +156,6 @@ samba
 sed
 shadow
 sl
-spotify
 steam
 sudo
 sysfsutils
@@ -198,7 +187,6 @@ traceroute
 transmission-gtk
 ttf-dejavu
 ttf-liberation
-ttf-ms-fonts
 upower
 usbutils
 util-linux
@@ -213,7 +201,6 @@ wpa_supplicant
 xf86-video-intel
 xfsprogs
 xorg-server
-xorg-server-utils
 xorg-xbacklight
 xorg-xev
 xorg-xinit
@@ -224,9 +211,7 @@ xpdf
 xscreensaver
 xsel
 xterm
-yaourt
 youtube-dl
 zathura-pdf-mupdf
 zcash
-zork1
 zsh
