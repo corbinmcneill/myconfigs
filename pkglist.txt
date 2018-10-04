@@ -20,7 +20,6 @@ coreutils
 cronie
 cryptsetup
 ctags
-cuda
 cups
 d-feet
 deepin-screenshot
