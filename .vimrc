@@ -5,20 +5,20 @@
 set nocompatible
 filetype off
 try
-	set rtp+=~/.vim/bundle/Vundle.vim
-	call vundle#begin()
-	Plugin 'airblade/vim-gitgutter'
-	Plugin 'gmarik/Vundle.vim'
-	"Plugin 'lervag/vimtex'
-	Plugin 'octol/vim-cpp-enhanced-highlight'
-	Plugin 'scrooloose/nerdtree'
-	Plugin 'sjl/gundo.vim'
-	Plugin 'tclem/vim-arduino'
-	Plugin 'tpope/vim-fugitive'
-	Plugin 'vim-airline/vim-airline'
-	Plugin 'vim-airline/vim-airline-themes'
-	Plugin 'xolox/vim-misc'
-	call vundle#end()
+    set rtp+=~/.vim/bundle/Vundle.vim
+    call vundle#begin()
+    Plugin 'airblade/vim-gitgutter'
+    Plugin 'gmarik/Vundle.vim'
+    "Plugin 'lervag/vimtex'
+    Plugin 'octol/vim-cpp-enhanced-highlight'
+    Plugin 'scrooloose/nerdtree'
+    Plugin 'sjl/gundo.vim'
+    Plugin 'tclem/vim-arduino'
+    Plugin 'tpope/vim-fugitive'
+    Plugin 'vim-airline/vim-airline'
+    Plugin 'vim-airline/vim-airline-themes'
+    Plugin 'xolox/vim-misc'
+    call vundle#end()
 catch
 endtry
 filetype plugin indent on
@@ -35,9 +35,9 @@ set cursorline
 set term=xterm-256color
 set showmatch
 try
-	colorscheme Tomorrow-Night
+    colorscheme Tomorrow-Night
 catch
-	hi CursorLine cterm=NONE ctermbg=darkblue guibg=darkred
+    hi CursorLine cterm=NONE ctermbg=darkblue guibg=darkred
 endtry
 
 "white character display
@@ -48,6 +48,7 @@ let g:airline_powerline_fonts = 1
 set noshowmode
 
 "indenting
+set expandtab
 set tabstop=4
 set shiftwidth=4
 set autoindent
@@ -65,10 +66,10 @@ nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 
 "gundo
 try
-	let g:gundo_width = 35
-	let g:gundo_preview_height = 20
-	let g:gundo_close_on_revert = 1
-	nnoremap <F5> :GundoToggle<CR>
+    let g:gundo_width = 35
+    let g:gundo_preview_height = 20
+    let g:gundo_close_on_revert = 1
+    nnoremap <F5> :GundoToggle<CR>
 catch
 endtry
 
@@ -113,12 +114,12 @@ nnoremap <C-=> <C-w> =
 
 "switch between number and relative number with <C-a>
 function! NumberToggle()
-	if(&relativenumber == 1)
-		set relativenumber!
-		set number
-	else
-		set relativenumber
-	endif
+    if(&relativenumber == 1)
+        set relativenumber!
+        set number
+    else
+        set relativenumber
+    endif
 endfunc
 nnoremap <C-a> :call NumberToggle()<cr>
 
